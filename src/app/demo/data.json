@@ -1,4 +1,4 @@
-const d = {
+{
   "data": [
     {
       "name": "Chris Smith",
@@ -329,4 +329,4 @@ const d = {
       "img": "https://assets-global.website-files.com/60c0d5d6aa151a3b2c87c30f/618d81dcd94a71a34ecae249_Will-Cooper-Website.png"
     }
   ]
-};
+}
