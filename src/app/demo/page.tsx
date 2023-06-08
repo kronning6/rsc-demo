@@ -33,9 +33,9 @@ export default async function DemoPage() {
         <div className="mt-5">
           {
             teamMemberInfo
-              .sort((a, b) => 0.5 - Math.random())
+              .sort(() => 0.5 - Math.random())
               .map((i, index) => {
-                return <img className="w-[150px] h-[100px] inline-flex" src={i.img} />
+                return <img className="m-1 w-[150px] h-[100px] inline-flex" src={i.img} />
               })
           }
         </div>
