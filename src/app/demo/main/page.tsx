@@ -65,7 +65,7 @@ function GridLoading() {
   return (
     <div>
       {
-        [...Array(25).keys()].map(() => (
+        [...Array(24).keys()].map(() => (
           <div className="m-1 w-56 h-36 inline-flex items-center justify-center rounded bg-[#565f89]">Grid Loading...</div>
         ))
       }
